@@ -41,7 +41,7 @@ request body 需為 JSON 格式，包含以下欄位：
 ```bash
 curl -X POST "http://localhost:3030/booking" \
      -H "Content-Type: application/json" \
-     -H "Identity: flyfish" \
+     -H "Identity: klook" \
      -d '{
          "klookOrderNumber": "KLK123456",
          "bookingDate": "2023-12-01",
